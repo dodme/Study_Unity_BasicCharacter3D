@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7212060370015956059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8925003937401059394}
+  - component: {fileID: 906422519987416135}
+  - component: {fileID: 1039329036779301336}
+  m_Layer: 0
+  m_Name: Skill_FireBall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8925003937401059394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7212060370015956059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.503962, y: -6.399699, z: 10.8997755}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &906422519987416135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7212060370015956059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30ae82463ea2f874c96ff745cc974649, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObjectList: []
+  targetLocation: {x: 0, y: 0, z: 0}
+  SkillPrefab: {fileID: 5845055901604936084, guid: 82d168d2202691a4397fe8362335b4ac, type: 3}
+  From: {fileID: 0}
+  SkillAnimation: {fileID: 1039329036779301336}
+  StartDelay: 0.2
+  FixToFromObject: 0
+--- !u!114 &1039329036779301336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7212060370015956059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7496838cae84ee24ea88d1f066ec4d71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: {x: 0, y: 0, z: 0}
+  target: {fileID: 0}
+  triggerName: TriggerBasicAttack
